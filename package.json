@@ -1,0 +1,17 @@
+{
+  "name": "pintabs",
+  "version": "0.1.0",
+  "main": " ",
+  "repository": "https://github.com/greew/pintabs",
+  "author": "Jesper Skytte Marcussen <jesper@skytte.it>",
+  "license": "MIT",
+  "dependencies": {
+    "standard": "^16.0.2"
+  },
+  "standard": [
+    "chrome"
+  ],
+  "scripts": {
+    "test": "echo \"Running style linting\"; node_modules/.bin/standard"
+  }
+}

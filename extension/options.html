@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Pin Tabs Options Page</title>
+    <style>
+        body {
+            font-size: 16px;
+        }
+
+        .container {
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        textarea {
+            width: 100%;
+            height: 400px;
+        }
+
+        #status {
+            display: none;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+
+        #status.success {
+            display: block;
+            background-color: lightgreen;
+        }
+
+        #status.error {
+            display: block;
+            background-color: red;
+        }
+
+        button {
+            margin-top: .3em;
+            float: right;
+            width: 100px;
+            height: 2em;
+            font-size: 1em;
+        }
+
+        #copyright {
+            font-size: .75em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <button type="button" id="saveBtn">__MSG_text_btn_save__</button>
+    <h1>__MSG_title__</h1>
+    <div id="status"></div>
+    <hr />
+    <label for="urls">__MSG_labelUrls__</label>
+    <textarea id="urls"></textarea>
+    <p>__MSG_helpTextUrls__</p>
+    <hr />
+    <label for="removeBlankTab">__MSG_labelRemoveBlankTab__</label>
+    <p><input type="checkbox" id="removeBlankTab" /> __MSG_helpRemoveBlankTab__</p>
+    <hr />
+    <p id="copyright">
+        Copyright <span id="year"></span> @ <a href="http://github.com/greew/" target="_blank">Jesper Skytte Marcussen</a> | All Rights Reserved
+    </p>
+</div>
+</body>
+<script src="options.js"></script>
+</html>
+

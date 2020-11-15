@@ -1,0 +1,44 @@
+{
+  "title": {
+    "message": "Open and Pin my Tabs"
+  },
+  "short_title": {
+    "message": "Pin Tabs"
+  },
+  "description": {
+    "message": "Open and Pin a default set of tabs defined by you."
+  },
+  "notification_success_title": {
+    "message": "Success"
+  },
+  "notification_success_msg": {
+    "message": "Settings were saved"
+  },
+  "notification_error_title": {
+    "message": "Error"
+  },
+  "notification_error_msg": {
+    "message": "The following error happened: $error$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Unknown error happened"
+      }
+    }
+  },
+  "text_btn_save": {
+    "message": "Save"
+  },
+  "labelUrls": {
+    "message": "Choose a list of URLs to open on browser start and pin:"
+  },
+  "helpTextUrls": {
+    "message": "Enter one URL per line. Lines starting with # and empty lines are ignored."
+  },
+  "labelRemoveBlankTab": {
+    "message": "Check whether to not open chrome://newtab/ page:"
+  },
+  "helpRemoveBlankTab": {
+    "message": "Don't open chrome://newtab/"
+  }
+}
